@@ -10,6 +10,14 @@ const scoreCounter = new ScoreCounter(testSuiteName, scoresDir);
 describe(testSuiteName, () => {
   afterEach(async () => request(app).delete('/books'));
 
+  it('GET /books sends an empty array if no books exist', async () => {
+    const res = await request(app).get('/books');
+    expect(res.body.length).toBe(0);
+    expect(res.status).toEqual(200);
+
+    scoreCounter.correct(expect); // DO NOT TOUCH
+  });
+
   it('GET /books sees all tasks', async () => {
     const bookTitle1 = 'Wizard of Oz';
     const bookTitle2 = 'The Hobbit';

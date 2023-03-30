@@ -1,11 +1,12 @@
 {
-  "name": "express-0.1-assignment",
+  "name": "express-1.1-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "preinstall": "cp hooks/pre-commit .git/hooks/pre-commit",
     "lint": "eslint .",
+    "start": "nodemon src/index.js",
     "test": "jest --coverage",
     "test:w": "jest --watchAll",
     "test:r": "cat scores/scores.json | grep '\\d*/\\d'"
