@@ -1,0 +1,63 @@
+{
+  "testScores": {
+    "Debug Tests": {
+      "DeTe1": 0,
+      "DeTe2": 0
+    },
+    "From Scratch Tests": {
+      "FrScTe1": 0,
+      "FrScTe2": 0,
+      "FrScTe3": 0,
+      "FrScTe4": 1,
+      "FrScTe5": 0,
+      "FrScTe6": 1,
+      "FrScTe7": 0,
+      "FrScTe8": 1
+    }
+  },
+  "idToTestNameHash": {
+    "DeTe1": "Debug Tests Deletes a book properly",
+    "DeTe2": "Debug Tests Returns truthy if book does exist, falsy otherwise",
+    "DeTe3": "Integration Tests GET /books/:id sees a specific book",
+    "DeTe4": "Integration Tests GET /books/:id sends a 404 if no book exists",
+    "DeTe5": "Integration Tests PATCH /books/:id updates a title",
+    "DeTe6": "Integration Tests PATCH /books/:id returns 404 if task does not exist",
+    "DeTe7": "Integration Tests DELETE /books/:id deletes an existing book",
+    "DeTe8": "Integration Tests DELETE /books/:id returns 404 if book does not exist",
+    "FrScTe1": "From Scratch Tests GET /books sees all tasks",
+    "FrScTe2": "From Scratch Tests POST /books creates a book",
+    "FrScTe3": "From Scratch Tests GET /books/:id sees a specific book",
+    "FrScTe4": "From Scratch Tests GET /books/:id sends a 404 if no book exists",
+    "FrScTe5": "From Scratch Tests PATCH /books/:id updates a title",
+    "FrScTe6": "From Scratch Tests PATCH /books/:id returns 404 if task does not exist",
+    "FrScTe7": "From Scratch Tests DELETE /books/:id deletes an existing book",
+    "FrScTe8": "From Scratch Tests DELETE /books/:id returns 404 if book does not exist"
+  },
+  "testNameToIdHash": {
+    "Model Books Deletes a book properly": "DeTe1",
+    "Model Books Returns truthy if book does exist, falsy otherwise": "DeTe2",
+    "Integration Tests GET /books sees all tasks": "FrScTe1",
+    "Integration Tests POST /books creates a book": "FrScTe2",
+    "Integration Tests GET /books/:id sees a specific book": "FrScTe3",
+    "Integration Tests GET /books/:id sends a 404 if no book exists": "FrScTe4",
+    "Integration Tests PATCH /books/:id updates a title": "FrScTe5",
+    "Integration Tests PATCH /books/:id returns 404 if task does not exist": "FrScTe6",
+    "Integration Tests DELETE /books/:id deletes an existing book": "FrScTe7",
+    "Integration Tests DELETE /books/:id returns 404 if book does not exist": "FrScTe8",
+    "From Scratch Tests GET /books sees all tasks": "FrScTe1",
+    "From Scratch Tests POST /books creates a book": "FrScTe2",
+    "From Scratch Tests GET /books/:id sees a specific book": "FrScTe3",
+    "From Scratch Tests GET /books/:id sends a 404 if no book exists": "FrScTe4",
+    "From Scratch Tests PATCH /books/:id updates a title": "FrScTe5",
+    "From Scratch Tests PATCH /books/:id returns 404 if task does not exist": "FrScTe6",
+    "From Scratch Tests DELETE /books/:id deletes an existing book": "FrScTe7",
+    "From Scratch Tests DELETE /books/:id returns 404 if book does not exist": "FrScTe8",
+    "Debug Tests Deletes a book properly": "DeTe1",
+    "Debug Tests Returns truthy if book does exist, falsy otherwise": "DeTe2"
+  },
+  "humanReadable": {
+    "Debug Tests": "0/2",
+    "finalTestScore": "FINAL SCORE: 3/10",
+    "From Scratch Tests": "3/8"
+  }
+}
